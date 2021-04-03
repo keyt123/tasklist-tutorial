@@ -9,9 +9,7 @@ import {ActivatedRoute} from '@angular/router';
 export class FolderPage implements OnInit {
   public folder: string;
   title = 'タスク登録';
-  tasks: { name: string }[] = [
-    {name: 'タスク1'}, {name: 'タスク2'},
-  ];
+  tasks: { name: string }[] = [];
   task: string;
 
   constructor(private activatedRoute: ActivatedRoute) {
